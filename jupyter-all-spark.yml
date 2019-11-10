@@ -8,5 +8,5 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - d:/code/notebooks:/home/notebooks
+      - $PWD/notebooks:/home/notebooks
    
